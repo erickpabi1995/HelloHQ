@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#team {
+  font-weight: 700;
+  color: #587292;
+  font-size: 22px;
+  padding-left: 40px;
+}
+
+#rowteam {
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#expand {
+  color: #587292;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: right;
+  padding-right: 20px;
+}
+
+#expandIcon {
+  font-size: 36px;
+  margin-top: 3px;
+}
+
+hr {
+  background-color: #D4E3F6;
+  width: 78.125vw;
+}
+
+hr:not([size]) {
+  height: 4px;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0px 2px 10px 2px rgba(88, 114, 146, 0.15);
+  width: 78.125vw;
+  margin: auto;
+}
+
+.cameron {
+  margin-left: 20px;
+  width: 100px;
+}
+
+.pena {
+  position: relative;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: -20px;
+  height: 130px;
+  opacity: 0;
+  width: 260px;
+  transition: 0.5s ease;
+  background-color: #fff;
+  margin-left: 20px;
+}
+
+.pena:hover .overlay {
+  opacity: 0.9;
+  box-shadow: 0 4px 8px 2px rgba(88, 114, 146, 0.2), 0 6px 20px 0 rgba(88, 114, 146, 0.15);
+  border-radius: 15px;
+}
+
+.text {
+  color: #000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.delete {
+  margin-right: 5px;
+  color: #587292;
+  font-size: 33px;
+  margin-top: 10px;
+}
+
+.pencil {
+  color: #587292;
+  font-size: 33px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.camhead {
+  margin-top: 10px;
+  color: #587292;
+  font-weight: 600;
+  white-space: nowrap;
+  font-size: 16px;
+  width: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 48;
+}
+
+#mainrow {
+  padding-bottom: 60px;
+  padding-left: 2%;
+  padding-top: 30px;
+}
+
+#account {
+  font-size: 35px;
+  color: #D4E3F6;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.dotted {
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: #D4E3F6;
+  width: 60px;
+  height: 60px;
+  border-width: 0.13rem;
+}
+
+.person-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dotted-card {
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 100px;
+}
+
+.dotted-card:hover {
+  width: 84px;
+  height: 88%;
+  box-shadow: 0 4px 8px 2px rgba(88, 114, 146, 0.2), 0 6px 20px 0 rgba(88, 114, 146, 0.15);
+  border-radius: 16px;
+  cursor: pointer;
+}
+.dotted-card:hover .person-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+.dotted-card:hover .dotted {
+  border-color: #587292;
+}
+.dotted-card:hover #account {
+  color: #587292;
+}
+
+.card-bottom {
+  margin-bottom: 80px;
+}
+
+.card-body{
+  padding: 0;
+}
+
+.project {
+  font-weight: 400;
+  background-color: #A7BCD7;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 0.15rem 0.6rem 0.15rem 0.6rem;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.standard {
+  font-weight: 400;
+  color: #D4E3F6;
+  font-size: 13px;
+  margin-top: -7px;
+}
+
+
+

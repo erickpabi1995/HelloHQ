@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  #team{
+    font-weight: $font-bold;
+    color:$primary;
+    font-size: 22px;
+  }
+
+  #rowteam{
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #expand{
+  
+    color:$primary;
+    font-weight:$font-bold;
+    cursor: pointer;
+    text-align: right;
+    
+  
+  }
+
+  #expandIcon{
+    font-size: 36px;
+    margin-top: 3px;
+  }
+  
+
+  hr{
+    height: 4px !important;
+    background-color: $tertiary !important; 
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    width: 1000px !important;
+    
+  }
+
+  .card{
+    border-radius: 15px;
+  box-shadow: 0px 2px 10px 2px rgba(88, 114, 146, 0.15);
+  -webkit-box-shadow: 0px 2px 10px 2px rgba(88, 114, 146, 0.15);
+  -moz-box-shadow: 0px 2px 10px 2px rgba(88, 114, 146, 0.15);
+  width: 1000px;
+  margin:auto;
+  }
+
+  #cameron{
+    margin-left: 20px;
+    width: 100px;
+    
+  }
+
+ .pena{
+    position: relative;
+    cursor: pointer;
+ }
+  
+  .overlay {
+    position: absolute;
+    top: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 130px;
+    width: 100%;
+    opacity: 0;
+    width: 260px;
+    transition: .5s ease;
+    background-color: #fff;
+    margin-left: 20px;
+  }
+
+  .pena:hover .overlay {
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 2px rgba(88, 114, 146, 0.2), 0 6px 20px 0 rgba(88, 114, 146, 0.15);
+    border-radius: 15px;
+  }
+
+  .text {
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #delete{
+    margin-right: 5px;
+    color:$primary;
+    font-size: 33px;
+    margin-top: 10px;
+  }
+
+  #pencil{
+    color:$primary;
+    font-size: 33px;
+    margin-right: 100px;
+    margin-top: 10px;
+  }
+  #camhead{
+    margin-top:10px;
+    color:$primary;
+    font-weight: $font-semibold;
+    white-space: nowrap; 
+    font-size:16px;
+  width: 170px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+  #mainrow{
+    padding-bottom: 90px;
+    padding-left: 2%;
+    padding-top: 30px;
+  }
+  #account{
+    font-size: 35px;
+    color:$tertiary;
+    margin-left:10px ;
+    margin-top: 10px;
+    
+  }
+
+ 
+
+  .dotted{
+    border-radius: 50%;
+    border-style: dashed;
+    border-color:  $tertiary;
+    width: 60px;
+    height:60px;
+    border-width: 0.13rem;
+    padding-top: auto;
+    padding-bottom: auto;
+    
+  }
+
+
+.person-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .dotted-card {
+    margin-left:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 100px;
+  }
+  .dotted-card:hover{
+    
+         width: 84px;
+         height: 88%;
+        box-shadow: 0 4px 8px 2px rgba(88, 114, 146, 0.2), 0 6px 20px 0 rgba(88, 114, 146, 0.15);
+        border-radius: 16px;
+        cursor: pointer;
+        .person-icon-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        margin-right: 50px;
+        }
+        
+        .dotted {
+               border-color:$primary;
+        }
+        #account{
+            color:$primary;
+            
+        }
+      
+  }
+
+  .card-bottom{
+    margin-bottom: 80px;
+  }
+
+
+  .project{
+    font-weight: $font-regular;
+    background-color:$secondary;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 0.15rem 0.6rem 0.15rem 0.6rem;
+    font-size: 12px;
+    margin-top: -10px;
+    
+  }
+
+
+
+  .standard{
+    font-weight: $font-regular;
+    color:$tertiary;
+    font-size: 13px;
+    margin-top: -7px;
+  }
+
+  #ralph{
+    margin-left: -12px;
+  }
+
+  #eleanor{
+    margin-left: -12px;
+  }
